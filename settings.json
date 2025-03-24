@@ -1,17 +1,14 @@
 [
-    { "title": "Task 1", "file": "tasks/task_01.html" },
-    { "title": "Task 2", "file": "tasks/task_02.html" },
-    { "title": "Task 3", "file": "tasks/task_03.html" },
-    { "title": "Task 4", "file": "tasks/task_04.html" },
-    { "title": "Task 5", "file": "tasks/task_05.html" },
-    { "title": "Task 8", "file": "tasks/task_08.html" },
-    { "title": "Task 9", "file": "tasks/task_09.html" },
-    { "title": "Task 10", "file": "tasks/task_10.html" },
-    { "title": "Task 11", "file": "tasks/task_11.html" },
-    { "title": "Task 12", "file": "tasks/task_12.html" },
-    { "title": "Task 13", "file": "tasks/task_13.html" },
-    { "title": "Task 14", "file": "tasks/task_14.html" },
-    { "title": "Task 15", "file": "tasks/task_15.html" },
-    { "title": "Task 16", "file": "tasks/task_16.html" }
+    { "title": "Task 1", "file": "task_01.html" },
+    { "title": "Task 2", "file": "task_02.html" },
+    { "title": "Task 3", "file": "task_03.html" },
+    { "title": "Task 4", "file": "task_04.html" },
+    { "title": "Task 5", "file": "task_05.html" },
+    { "title": "Task 8", "file": "task_08.html" },
+    { "title": "Task 9", "file": "task_09.html" },
+    { "title": "Task 10", "file": "task_10.html" },
+    { "title": "Task 11", "file": "task_11.html" },
+    { "title": "Task 12", "file": "task_12.html" },
+    { "title": "Task 13", "file": "task_13.html" },
   ]
   
