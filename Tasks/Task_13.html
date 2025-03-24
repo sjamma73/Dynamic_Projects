@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculate Age</title>
+</head>
+<body>
+    <input id="dob_input" placeholder="MM/DD/YYYY" type="date" onkeyup="calculateAge();"/>
+    <div id="output_div"></div>
+
+    <script>
+        function calculateAge() {
+            const date = new Date();
+            let currentYear = date.getFullYear();
+            let dobInput = document.getElementById("dob_input").value;
+            let dob = new Date(dobInput);
+            let dobYear = dob.getFullYear();
+            let age = currentYear - dobYear;
+            let msg = "You are " + age + " year(s) old!";
+            document.getElementById("output_div").innerHTML = msg;
+        }
+    </script>
+</body>
+</html>

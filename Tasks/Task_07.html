@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+        input, button {
+            margin: 10px;
+            padding: 10px;
+        }
+        #stackDisplay {
+            margin-top: 20px;
+            font-weight: bold;
+            font-size: 30px;
+        }
+    </style>
+</head>
+<body>
+    <input type="text" id="taskInput" placeholder="Enter Task Name">
+    <button onclick="addTask()">ADD Task</button>
+    <button onclick="undoTask()">UNDO Task</button>
+    <div id="stackDisplay">Process Line</div>
+    <div id="processLine"></div>
+    
+    <script>
+        let stack = [];
+        
+        function addTask() {
+            let task = document.getElementById("taskInput").value;
+            if (task) {
+                stack.push(task);
+                document.getElementById("taskInput").value = "";
+                updateStackDisplay();
+            }
+        }
+        
+        function undoTask() {
+            if (stack.length > 0) {
+                stack.pop();
+                updateStackDisplay();
+            }
+        }
+        
+        function updateStackDisplay() {
+            document.getElementById("processLine").innerText = stack.join(",");
+        }
+    </script>
+</body>
+</html>
