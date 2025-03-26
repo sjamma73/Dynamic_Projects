@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function () {
         let taskLink = document.createElement("a");
         let taskNumber = i.toString().padStart(2, '0'); // Format to 2 digits
         taskLink.textContent = `TASK_${taskNumber}`;
-        taskLink.href = `Task_${taskNumber}.html`;
+        taskLink.href = `Task_0${taskNumber}.html`;
         taskLink.target = "task-frame";
 
         taskLink.addEventListener("click", function (event) {
